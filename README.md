@@ -37,5 +37,5 @@ epoch=7
 
 
 ### accuracy
-train : 0.9992
-test : 0.8922
+train : 0.9992  
+test : 0.8922  
