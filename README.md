@@ -52,10 +52,9 @@ LMS의 예제를 보고 따라하던 중 에러가 발생함
 ### Model structure
 ![image](https://user-images.githubusercontent.com/53106649/148017906-ff720575-828e-4a5b-8c2e-935857c1b580.png)
 
-  
-  from tensorflow.keras.utils import plot_model
-  plot_model(model, to_file='model.png')
-  plot_model(model, to_file='model_shapes.png', show_shapes=True)
+    from tensorflow.keras.utils import plot_model
+    plot_model(model, to_file='model.png')
+    plot_model(model, to_file='model_shapes.png', show_shapes=True)
 
 해당 코드를 통해서 모델 구조를 그림으로 깔끔하게 볼 수 있다
 
