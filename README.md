@@ -1,4 +1,4 @@
-# rock_scissors_paper_classifier
+# rock_scissors_paper_classifier   
 
 
 ## Dataset from https://laurencemoroney.com/datasets.html
