@@ -1,9 +1,19 @@
 # rock_scissors_paper_classifier
+
+
 ## Dataset from https://laurencemoroney.com/datasets.html
+
+
 ### Rock Paper Scissors Dataset
 
+
+
 ### train directory name == rps
+
+
 ### test directory name ==rps-test-set
+
+
 
 rps directory structure
 > paper 840 
