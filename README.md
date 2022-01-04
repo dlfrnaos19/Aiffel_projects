@@ -52,7 +52,12 @@ LMS의 예제를 보고 따라하던 중 에러가 발생함
 ### Model structure
 ![image](https://user-images.githubusercontent.com/53106649/148017906-ff720575-828e-4a5b-8c2e-935857c1b580.png)
 
+  
+  from tensorflow.keras.utils import plot_model
+  plot_model(model, to_file='model.png')
+  plot_model(model, to_file='model_shapes.png', show_shapes=True)
 
+해당 코드를 통해서 모델 구조를 그림으로 깔끔하게 볼 수 있다
 
 ### Model Hyperparameter
 optimizer = adam  
@@ -72,4 +77,6 @@ _test : 0.8922_
 전처리 과정에 필요한 라이브러리들의 활용을 좀 더 자유롭게 할 필요가 있었음  
 폴더에서 파일을 읽어오는 과정이나, 넘파이에 데이터셋 차원에 해당 데이터의 인덱스와 데이터를 넣는 것은
 개념적으로는 이해가 되지만 판다스에 데이터를 넣는 것과는 또 다른 것이어서 좀 더 익숙해질 필요가 있었음  
+
+glob, Image 라이브러리에 대한 공부예정
 
