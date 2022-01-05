@@ -77,5 +77,48 @@ _test : 0.8922_
 폴더에서 파일을 읽어오는 과정이나, 넘파이에 데이터셋 차원에 해당 데이터의 인덱스와 데이터를 넣는 것은
 개념적으로는 이해가 되지만 판다스에 데이터를 넣는 것과는 또 다른 것이어서 좀 더 익숙해질 필요가 있었음  
 
-glob, Image 라이브러리에 대한 공부예정
+---
+# 22-01-05 추가  
+  
+# Rock_scissors_paper_classifier2
+
+### Dataset from Aiffel_Busan
+
+### Dataset description
+The idea was from one Facilitator in Busan Aiffel.
+무성,용석,소예,아현,태경,우민 shared their data and 
+일구 changed the name of jpg files and then put together
+
+종합(directory structure)
+* paper 598 
+* rock 614
+* scissors 600 images(jpg)
+
+### Differences in Data preprocess
+
+First try on Sklearn to split train, test set easier
+    X_train, X_test, y_train, y_test = train_test_split(normed_images, labels,test_size=0.2,random_state=42 )
+    
+### Diffrences in Model
+
+Dataset has 3 color channel
+input shape has been changed to (28, 28, 3)
+
+### Diffrences in Hyperparameters
+optimizer = adam  
+loss = sparse_categorical_crossentropy  
+_epoch=15(changed)_
+
+### accuracy
+_train : 0.9827_
+_test : 0.9780_
+
+### 특이했던점
+분류가 틀렸던 데이터 5개를 확인했는데 특정배경에서 오류가 많이났던 것이 발견 됨
+![image](https://user-images.githubusercontent.com/53106649/148140856-38a553a6-5806-4730-b720-25a336d0a7d3.png)
+
+![image](https://user-images.githubusercontent.com/53106649/148140803-197d5d92-57af-4771-92e1-abd44a0f7128.png)
+
+![image](https://user-images.githubusercontent.com/53106649/148140815-d53702ef-e543-40fd-bb08-90469bb0a1e6.png)
+
 
