@@ -86,8 +86,9 @@ _test : 0.8922_
 
 ### Dataset description
 The idea was from one Facilitator in Busan Aiffel.
-무성,용석,소예,아현,태경,우민 shared their data and 
-일구 changed the name of jpg files and then put together
+무성,용석,소예,아현,태경,우민 shared their data and  
+
+일구 changed the name of jpg files and then put together  
 
 종합(directory structure)
 * paper 598 
@@ -114,7 +115,8 @@ _train : 0.9827_
 _test : 0.9780_
 
 ### 특이했던점
-분류가 틀렸던 데이터 5개를 확인했는데 특정배경에서 오류가 많이났던 것이 발견 됨
+분류가 틀렸던 데이터 5개를 확인했는데 특정배경에서 오류가 많이났던 것이 발견 됨  
+
 ![image](https://user-images.githubusercontent.com/53106649/148140856-38a553a6-5806-4730-b720-25a336d0a7d3.png)
 
 ![image](https://user-images.githubusercontent.com/53106649/148140803-197d5d92-57af-4771-92e1-abd44a0f7128.png)
