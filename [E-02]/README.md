@@ -2,7 +2,8 @@
   
 ## Data
 ### MNIST Handwritten Digits, Wine, Breast Cancer in scikit-learn
-### Test data size 20%, random_state = 0
+### Test data size 20%, random_state = 0  
+  
 
 
 ## Algorithm
