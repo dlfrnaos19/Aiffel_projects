@@ -42,4 +42,4 @@
 
 ![image](https://user-images.githubusercontent.com/53106649/148382577-75e0eec8-9165-47a5-8fbc-844a8c1fe3c6.png)  
   
-This kind of task is more sensitive, Confusion matrix and more technic is in need 
+This kind of task is more sensitive, Confusion matrix and more technic is required
