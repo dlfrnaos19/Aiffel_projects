@@ -1,7 +1,11 @@
 # Aiffel Exploration Node 2
 
 ## Algorithm
-### Decision Tree, Random Forest, Support Vector Machine, Stochastic Gradient Descent, Logistic Regression
+### Decision Tree  
+### Random Forest  
+### Support Vector Machine
+### Stochastic Gradient Descent  
+### Logistic Regression  
 #### Scaled_logistic_regression used StandardScaled data for only test purpose
 
 
