@@ -2,7 +2,7 @@
 
 ## Algorithm
 ### Decision Tree, Random Forest, Support Vector Machine, Stochastic Gradient Descent, Logistic Regression
-% Scaled_logistic_regression was used StandardScaled data for only test purpose
+#### Scaled_logistic_regression used StandardScaled data for only test purpose
 
 
 ## 1. MNIST Handwritten Digts Classification  
